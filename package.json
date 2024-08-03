@@ -1,6 +1,6 @@
 {
   "name": "fitness_app",
-  "main": "expo-router/entry",
+  "main": "node_modules/expo/AppEntry.js",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
+    "@react-navigation/native-stack": "^6.7.0",
     "@react-native-async-storage/async-storage": "^1.24.0",
     "@react-native-seoul/masonry-list": "^1.4.2",
     "@react-navigation/native": "^6.0.2",
